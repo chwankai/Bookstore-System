@@ -48,10 +48,10 @@ The system relies on several text files to act as a persistent database. *(Note:
 1. Clone this repository to your local machine.
 2. Ensure the `.cpp` source file and all text database files (`books.txt`, `users.txt`, `orders.txt`, `orderdetails.txt`, `cart.txt`) are located in the same directory. *(If starting fresh, create empty `.txt` files with these exact names).*
 3. Compile the program using your terminal or IDE:
-   ```bash
-   g++ bookstore_system.cpp -o bookstore
-   ```
+```bash
+g++ bookstore_system.cpp -o bookstore
+```
 4. Run the executable:
-  ```Bash
-  ./bookstore
-  ```
+```bash
+./bookstore
+```
